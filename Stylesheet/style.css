@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+/*
+header, nav, main, article, aside, section, footer {
+	display: block;
+}
+*/
+
+html, body, h1, h2, h3, h4, ul, li, a, p,
+header, nav, main, article, aside, section, footer {
+	padding: 0;
+	margin: 0;
+}
+
+html {
+	background-color: #262E6B;
+}
+
+body {
+	width: 760px;
+	height: 100vh;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #555555;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+.headline {
+	position: relative;
+	top: 20px;
+	background-color: #11233b;
+	color: white;
+	padding: 10px 20px;	
+}
+
+.navigate {
+	position: relative;
+	top: 22px;
+	background-color: #41B55E;
+	padding: 5px;
+}
+
+li a {
+	color: white;
+}
+
+li {
+	display: inline;
+	margin-left: 15px;
+}
+
+img {
+	display: block;
+	margin: auto;
+}
+
+.art-index {
+	position: relative;
+	top: 50px;
+}
